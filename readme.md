@@ -168,25 +168,14 @@ Next Steps: My suspicions are that location may have strong predictive value and
 
 |   Feature      |  Data Type   | Description    |
 | :------------- | :----------: | -----------: |
-| customer_id | object   | unique customer identifier    |
-| gender   | object | Female or Male|
-| senior_citizen   | int64 | {0:No, 1:Yes}|
-| partner  | object | Yes or No|
-| dependents  | object| Yes or No|
-| tenure  | float64 | length of subscription in monnths|
-| phone_service   | object| Yes or No|
-| multiple_lines   | object | Yes, No, No phone service|
-| internet_service_type_id   | int64 | {1:DSL, 2:Fiber optic, 3:None}|
-| online_security  | object | Yes, No, No internet service|
-| online_backup   | object | Yes, No, No internet service|
-| device_protection  | object | Yes, No, No internet service|
-| tech_support  | object | Yes, No, No internet service|
-| streaming_tv | object | Yes, No, No internet service|
-| streaming_movies | object | Yes, No, No internet service|
-| contract_type_id  | int64 | {1:Month-to-mont, 2:One year, 3:Two year} |
-| paperless_billing   | object | Yes or No|
-| payment_type_id   | int64 | {1:Electronic check, 2:Mailed check, 3:Bank transfer (automatic), 4:Credit card (automatic) |
-| monthly_charges   | float64 | monthly billing rate|
-| total_charges   | float64 | cumulative charges across tenure|
-| churn   | object | Yes or No|
+| Single Unit Property |  housing unit is a single unit within a larger structure that can be used by an individual or household to eat, sleep, and live |
+| bathroomcnt | float64   | number of bathrooms including partials   |
+| bedrooomcnt   | float64 | number of bedrooms |
+| calculatedfinishedsquarefeet  | float64 | total liveable square feet|
+| propertylandusetypeid | float64 | type of land use property zoning|
+| taxamount | float64 | total assessed property taxes|
+| fips  | float64 | Federal Information Processing Standard (source: https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt)|
+| parcelid  | float64 | unique lot identifier |
+| transactiondate  | object | date of property sale |
+
 
