@@ -168,7 +168,7 @@ Next Steps: My suspicions are that location may have strong predictive value and
 
 |   Feature      |  Data Type   | Description    |
 | :------------- | :----------: | -----------: |
-| Single Unit Property |  housing unit is a single unit within a larger structure that can be used by an individual or household to eat, sleep, and live |
+| Single Unit Property |  | housing unit is a single unit within a larger structure that can be used by an individual or household to eat, sleep, and live |
 | bathroomcnt | float64   | number of bathrooms including partials   |
 | bedrooomcnt   | float64 | number of bedrooms |
 | calculatedfinishedsquarefeet  | float64 | total liveable square feet|
