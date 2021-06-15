@@ -1,44 +1,47 @@
 # Regression Project - Zilow
 Project Description: develop a machine learning model that will predict Single Unit Properties using Zillow dataset
 
-Conditions: Utilize data only from the May-August 2017 period
+    Conditions: Utilize data only from the May-August 2017 period
 
-Challenges: 
+    Challenges: 
 
-* Defining Single Unit Property and relevant useid codes
+        * Defining Single Unit Property and relevant useid codes
 
-* Untidy Data: Null Values, Duplicates, Outliers 
+        * Untidy Data: Null Values, Duplicates, Outliers 
 
-* Identify County specific data using FIPS codes
+        * Identify County specific data using FIPS codes
 
-    * Calculate Tax Rate by County
+            * Calculate Tax Rate by County
 
-    * Cross correlations in data
+            * Cross correlations in data
+
 Project Findings:
 
-* As suspected, square feet was a primary driver but other suspected features such as useid (type of Single Unit Propery) and age of home were not
+    * As suspected, square feet was a primary driver but other suspected features such as useid (type of Single Unit Propery) and age of home were not
 
-* The predictive value of the models employed declined as Single Unit Property values grew and RMSEs widened
+    * The predictive value of the models employed declined as Single Unit Property values grew and RMSEs widened
 
-    * However, did offer predictive value overall beating benchmarkes.  Model predictive value high sub $250k value
+        * However, did offer predictive value overall beating benchmarkes.  Model predictive value high sub $250k value
 
-* It would be easy to write this phenomena off to outliers but the distribution of the data was normal with long but consistent tail bservations. 
+    * It would be easy to write this phenomena off to outliers but the distribution of the data was normal with long but consistent tail bservations. 
+
 Conclusion: The Polynomial Regressor algorithm offered the most predictive value
 
-* Tortoise vs Hare: steadily outperformed as Single Unit Property Values increased vs other models
+    * Tortoise vs Hare: steadily outperformed as Single Unit Property Values increased vs other models
 
-* The Polynomial Regressor was able to capture information further out on the distribution curve than the other models.  My assumption is that there are other features that need to be explored that weren't in this project
+    * The Polynomial Regressor was able to capture information further out on the distribution curve than the other models.  My assumption is that there are other features that need to be explored that weren't in this project
 
     * My suspicions are corroborated by the heavy correlations between square feet and baths/beds in thd data set explored.  
 
     * Additionally, during the data exploration stage, I observed some relationship between the age of the Units and taxes with seemed anomolous and counter-intuitive
-Next Steps: My suspsicions are that location may have strong predictive value and would be worth exploring
 
-* I started to see this as I got towards the end of the project and started incorporating County specific information into the information
+Next Steps: My suspicions are that location may have strong predictive value and would be worth exploring
 
-* It reinforced some of the questions about the relationship between older age and higher taxes found during data exploration
+    * I started to see this as I got towards the end of the project and started incorporating County specific information into the information
 
-* I believe it would be worth exploring whether Single Unit Property Values are also largely driven by location which would explain an interest in older more established or historic neighborhoods.
+    * It reinforced some of the questions about the relationship between older age and higher taxes found during data exploration
+
+    * I believe it would be worth exploring whether Single Unit Property Values are also largely driven by location which would explain an interest in older more established or historic neighborhoods.
 
 
 ### Project Objectives
