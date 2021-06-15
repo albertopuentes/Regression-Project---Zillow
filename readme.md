@@ -5,13 +5,13 @@ Conditions: Utilize data only from the May-August 2017 period
 
 Challenges: 
 
-    * Defining Single Unit Property and relevant useid codes
+* Defining Single Unit Property and relevant useid codes
 
-    * Untidy Data: Null Values, Duplicates, Outliers 
+* Untidy Data: Null Values, Duplicates, Outliers 
 
-    * Identify County specific data using FIPS codes
+* Identify County specific data using FIPS codes
 
-        * Calculate Tax Rate by County
+    * Calculate Tax Rate by County
 
     * Cross correlations in data
 Project Findings:
